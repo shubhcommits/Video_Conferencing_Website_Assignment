@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>VIDEO AND CHAT CONFERENCING</title>
+</head>
+<body>
+  <header class="head">
+    <h1 class="header-title">VIDEO AND CHAT CONFERENCING</h1>
+  </header>
+  <main class="MAIN">
+    <div class="video-container" id="local-video-container">
+      <video class="video" id="local-video" autoplay muted></video>
+    </div>
+    <div class="video-container" id="remote-video-container">
+      <video class="video" id="remote-video" autoplay></video>
+      <div class="chat-container" id="chat-container">
+        <div class="chat-display" id="chat-display"></div>
+        <div class="chat-input-container">
+          <input type="text" id="chat-input" class="chat-input" placeholder="Type your message...">
+          <button id="send-button" class="send-button">Send</button>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
